@@ -4,6 +4,8 @@ A macOS app that scans your installed applications for known CVE vulnerabilities
 
 Built with SwiftUI (macOS 26 Liquid Glass) and a Python backend.
 
+![CVE Watch Screenshot](https://raw.githubusercontent.com/x-daniel-17/cve_watch/refs/heads/main/assets/IMAGE1.png)
+
 ## Setup
 
 Requires **macOS 26**, **Xcode 26+**, and **Python 3.10+**.
