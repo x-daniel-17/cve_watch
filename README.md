@@ -2,7 +2,7 @@
 
 A macOS app that scans your installed applications for known CVE vulnerabilities using the [National Vulnerability Database](https://nvd.nist.gov/).
 
-Built with SwiftUI (macOS 26 Liquid Glass) and a Python backend.
+Built with SwiftUI and a Python backend.
 
 ![CVE Watch Screenshot](https://raw.githubusercontent.com/x-daniel-17/cve_watch/refs/heads/main/assets/IMAGE1.png)
 
@@ -42,7 +42,7 @@ python -m src.main --watch    # Periodic checks (every 6 hours)
 1. Discovers installed apps from Homebrew and `/Applications`
 2. Queries the NVD API using CPE matching (~35 supported apps)
 3. Caches results in SQLite for 7 days
-4. Displays a severity-coded dashboard with CVE details
+4. Displays a dashboard with CVE details
 
 ## Tests
 
